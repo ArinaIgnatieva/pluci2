@@ -118,8 +118,8 @@ int main() {
 
         switch (symbol) { //в зависимости от введенного символа operation принимает значения разных функций
             case '+':
-              operation = add;
-              break;
+                operation = add;
+                break;
             case '-':
                 operation = diff;
                 break;
@@ -131,9 +131,9 @@ int main() {
                 break;
             default:
                 if (symbol!=' ') //если symbol не равен ни одному из 5 символов, то выводится сообщение об ошибке и цикл снова продолжается
-                 std::cout << "такой операции нет" << std::endl;
-                 continue;
-                    }
+                    std::cout << "такой операции нет" << std::endl;
+                    continue;
+                }
         std::cout << "Result: " << operation(x, y) << std::endl; //выводим на экран значение функции
 
     } 
