@@ -120,16 +120,16 @@ int main() {
             case '+':
               operation = add;
               break;
-             case '-':
+            case '-':
                 operation = diff;
                 break;
-             case '*':
+            case '*':
                 operation = multiply;
                 break;
-             case '/':
+            case '/':
                 operation = divide;
                 break;
-              default:
+            default:
                 if (symbol!=' ') //если symbol не равен ни одному из 5 символов, то выводится сообщение об ошибке и цикл снова продолжается
                  std::cout << "такой операции нет" << std::endl;
                  continue;
